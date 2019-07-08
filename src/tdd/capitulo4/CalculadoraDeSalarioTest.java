@@ -22,5 +22,14 @@ public class CalculadoraDeSalarioTest {
 		double salario = calculadora.calculaSalario(desenvolvedor);
 		assertEquals(4000.0 * 0.8, salario, 0.00001);
 	}
+//	
+//	@Test
+//	public void deveCalcularSalarioParaDBAComSalarioAbaixoDoLimite() {
+//		CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
+//		Funcionario DBA = 
+//				new Funcionario("Mauricio", 500.0, Cargo.DBA);
+//		double salario = calculadora.calculaSalario(DBA);
+//		assertEquals(500.0 * 0.85, salario, 0.00001);
+//	}
 
 }
